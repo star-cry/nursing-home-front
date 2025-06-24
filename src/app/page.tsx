@@ -15,7 +15,7 @@ const Home = () => {
     }, 1000);
   }, []);
 
-  return <div className="bg-gray-cold-10 h-full">{isLoading ? <Splash /> : <SelectModel />}</div>;
+  return <div className="bg-gray-cold-10 h-full overflow-auto">{isLoading ? <Splash /> : <SelectModel />}</div>;
 };
 
 export default Home;
