@@ -71,10 +71,17 @@
   --text-25: var(--text-25);
   --text-28: var(--text-28);
   --text-31: var(--text-31);
+  --text-40: var(--text-40);
 
   /* added font-family */
   --font-nanum-brush-script-regular: var(--font-nanum-brush-script-regular);
   --font-nanum-pen-script-regular: var(--font-nanum-pen-script-regular);
+
+  /* added spacing */
+  --spacing-3px: var(--spacing-3px);
+  --spacing-9px: var(--spacing-9px);
+  --spacing-100: var(--spacing-100);
+  --spacing-118\.75: var(--spacing-118\.75);
 }
 
 :root {
@@ -138,6 +145,13 @@
   --text-25: 1.563rem;
   --text-28: 1.75rem;
   --text-31: 1.938rem;
+  --text-40: 2.5rem;
+
+  /* added spacing */
+  --spacing-3px: 3px;
+  --spacing-9px: 9px;
+  --spacing-100: 25rem;
+  --spacing-118\.75: 29.688rem;
 }
 
 .dark {
