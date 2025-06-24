@@ -7,7 +7,6 @@
   --color-*: initial;
   --text-*: initial;
 
-
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-inter: var(--font-inter);
@@ -72,6 +71,10 @@
   --text-25: var(--text-25);
   --text-28: var(--text-28);
   --text-31: var(--text-31);
+
+  /* added font-family */
+  --font-nanum-brush-script-regular: var(--font-nanum-brush-script-regular);
+  --font-nanum-pen-script-regular: var(--font-nanum-pen-script-regular);
 }
 
 :root {
@@ -135,9 +138,6 @@
   --text-25: 1.563rem;
   --text-28: 1.75rem;
   --text-31: 1.938rem;
-
-  /* added font-weight */
-  /* --font-regular: 500 */
 }
 
 .dark {

@@ -1,10 +1,21 @@
 import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 
 import { MainLayout } from '@/components';
 
 import type { Metadata } from 'next';
 
 import './globals.css';
+
+const nanumBrushScriptRegular = localFont({
+  src: '../assets/font/NanumBrushScript-Regular.ttf',
+  variable: '--font-nanum-brush-script-regular',
+});
+
+const nanumPenScriptRegular = localFont({
+  src: '../assets/font/NanumPenScript-Regular.ttf',
+  variable: '--font-nanum-pen-script-regular',
+});
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,8 +35,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      {/* <body> */}
-      <body className={`${inter.className} ${inter.variable}`}>
+      <body
+        className={`${inter.className} ${inter.variable} ${nanumBrushScriptRegular.variable} ${nanumPenScriptRegular.variable} bg-black`}>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>
