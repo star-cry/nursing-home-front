@@ -1,10 +1,10 @@
-import { Carrot170Icon, LogoLarge } from '@/components';
+import { Carrot170, LogoLarge } from '@/components/icon';
 
 const Splash = () => (
   <div className="h-full w-full px-10 flex flex-col justify-between">
     <div className="flex justify-center items-center flex-col mt-14">
       <div className="rounded-full bg-white inline-block mb-6">
-        <Carrot170Icon />
+        <Carrot170 />
       </div>
       <span className="font-nanum-brush-script-regular text-40 mb-9px">도움에 도움을 더하다</span>
       <div className="mb-3px">
