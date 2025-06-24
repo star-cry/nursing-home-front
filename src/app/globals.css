@@ -71,7 +71,9 @@
   --text-25: var(--text-25);
   --text-28: var(--text-28);
   --text-31: var(--text-31);
+  --text-38: var(--text-38);
   --text-40: var(--text-40);
+  --text-60: var(--text-60);
 
   /* added font-family */
   --font-nanum-brush-script-regular: var(--font-nanum-brush-script-regular);
@@ -80,6 +82,9 @@
   /* added spacing */
   --spacing-3px: var(--spacing-3px);
   --spacing-9px: var(--spacing-9px);
+  --spacing-7\.5: var(--spacing-7\.5);
+  --spacing-25: var(--spacing-25);
+  --spacing-30: var(--spacing-30);
   --spacing-100: var(--spacing-100);
   --spacing-118\.75: var(--spacing-118\.75);
 }
@@ -145,13 +150,19 @@
   --text-25: 1.563rem;
   --text-28: 1.75rem;
   --text-31: 1.938rem;
+  --text-38: 2.375rem;
   --text-40: 2.5rem;
+  --text-60: 3.75rem;
 
   /* added spacing */
   --spacing-3px: 3px;
   --spacing-9px: 9px;
+  --spacing-7\.5: 1.875rem;
+  --spacing-25: 6.25rem;
+  --spacing-30: 7.5rem;
   --spacing-100: 25rem;
   --spacing-118\.75: 29.688rem;
+
 }
 
 .dark {
@@ -190,7 +201,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring/50 leading-tight;
   }
 
   body {
